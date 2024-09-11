@@ -6,25 +6,41 @@ body{
     background-color:  #121212;
     font-family:sans-serif ;
     color: aliceblue;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 600;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
     font-family: sans-serif;
-    color: rgb(ffffff);
-    padding: 30px;
+    background-color: #121212;
 }
 
-.navbar > li{
+header h1 {
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color:aliceblue;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
     padding: 20px 0;
-    border-top: 1px solid #444;
     position: sticky;
     z-index: 1000;
+    top: 0;
+    background-color: #121212;
+    border-bottom:1px solid #444;
 }
 
 .navbar ul{
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     justify-content: center
@@ -38,6 +54,7 @@ header{
     color: aliceblue;
     font-weight: 500;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 .content{
@@ -46,6 +63,8 @@ header{
     background-color: #333;
     padding: 30px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .dp{
