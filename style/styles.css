@@ -36,6 +36,7 @@ header h1 {
     top: 0;
     background-color: #121212;
     border-bottom:1px solid #444;
+    font-size: larger;
 }
 
 .navbar ul{
@@ -75,13 +76,15 @@ header h1 {
 }
 
 .button{
-    border-radius: 30px;
+    border: none;
+    border-radius: 25px;
     margin-top: 20px;
     cursor: pointer;
     font-family: sans-serif;
     font-weight: 700;
+    font-size: large;
     background-color:#256425;
-    padding: 25px 25px;
+    padding: 20px 20px;
     color: aliceblue;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -154,12 +157,12 @@ button:hover {
     font-family: sans-serif;
     padding: 20px;
     color: #256425;
-    font-size: large;
+    font-size:x-large;
 }
 
 .sociallinks{
     margin: 15px;
-    font-weight: 400px;
+    font-weight: 600px;
 }
 
 h2 {
