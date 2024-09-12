@@ -53,6 +53,7 @@ header h1 {
 .navbar ul li a{
     color: aliceblue;
     font-weight: 500;
+    font-size: larger;
     text-decoration: none;
     font-family: sans-serif;
 }
@@ -74,13 +75,13 @@ header h1 {
 }
 
 .button{
-    border-radius: 3px;
+    border-radius: 30px;
     margin-top: 20px;
     cursor: pointer;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     background-color:#256425;
-    padding: 10px 20px;
+    padding: 25px 25px;
     color: aliceblue;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -153,6 +154,7 @@ button:hover {
     font-family: sans-serif;
     padding: 20px;
     color: #256425;
+    font-size: large;
 }
 
 .sociallinks{
